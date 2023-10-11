@@ -14,9 +14,9 @@ We use the five algorithms: SVM, Gaussian Naive Bayes, Logistic Regression, deci
 ### OpenIE triples extraction
 Baseline Model is Dependency Parsing
 Three Deep Learning Models are:
-OpenIE6: https://github.com/dair-iitd/openie6
-IMOJIE: https://github.com/dair-iitd/imojie
-Gen2OIE: https://github.com/dair-iitd/moie
+1. OpenIE6: https://github.com/dair-iitd/openie6
+2. IMOJIE: https://github.com/dair-iitd/imojie
+3. Gen2OIE: https://github.com/dair-iitd/moie
 ### Triple Filtering
 First, we created a lexicon of the most frequent 100 nouns from the claim dataset. Then we extracted noun phrases from triples arguments. We match the lexicon with filtered triples. If there is a match between the lexicon noun and an arguments noun phrase, we keep the triple; otherwise, we discard it.
 ### Entity Linking
