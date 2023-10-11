@@ -12,8 +12,7 @@ The input dataset is news headlines. Then, claim classification is performed as 
 ### Claim Classification
 We use the five algorithms: SVM, Gaussian Naive Bayes, Logistic Regression, decision tree, and Ada Boost classifier. We combine TF-IDF features with numerical features (headline length, no. of nouns, no. of verbs) and use the combined features in machine learning classification models.
 ### OpenIE triples extraction
-Baseline Model is Dependency Parsing
-Three Deep Learning Models are:
+Baseline Model is Dependency Parsing and Three Deep Learning Models are:
 1. OpenIE6: https://github.com/dair-iitd/openie6
 2. IMOJIE: https://github.com/dair-iitd/imojie
 3. Gen2OIE: https://github.com/dair-iitd/moie
